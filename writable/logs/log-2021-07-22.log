@@ -1,0 +1,381 @@
+CRITICAL - 2021-07-22 00:27:18 --> Call to a member function query() on null
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(928): App\Controllers\Data->index()
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#2 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2021-07-22 00:27:21 --> Call to a member function query() on null
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(928): App\Controllers\Data->index()
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#2 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#5 {main}
+CRITICAL - 2021-07-22 03:07:47 --> syntax error, unexpected ';'
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('data/save')
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('data/save')
+#2 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2021-07-22 03:07:58 --> syntax error, unexpected ';'
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2021-07-22 03:08:01 --> syntax error, unexpected ';'
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2021-07-22 03:09:30 --> syntax error, unexpected ';'
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2021-07-22 03:14:00 --> syntax error, unexpected ';'
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2021-07-22 03:14:05 --> syntax error, unexpected ';'
+#0 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\ASUS\\D...')
+#1 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\framework-4.1.3\framework-4.1.3\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2021-07-22 11:52:10 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(70): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit('3')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 11:56:01 --> Invalid file: /edit/3.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit/3.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit/3', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(70): view('/edit/3', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit('3')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:06:15 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(71): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:07:29 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(71): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:08:00 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(71): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:08:52 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(72): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:10:14 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(73): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:11:38 --> Invalid file: /edit.php
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(73): view('/edit', Array)
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#8 {main}
+CRITICAL - 2021-07-22 12:13:02 --> Trying to get property 'Nama' of non-object
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 33, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/edit', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(72): view('data/edit', Array)
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2021-07-22 12:17:02 --> Trying to get property 'Nama' of non-object
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 33, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/edit', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(74): view('data/edit', Array)
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2021-07-22 12:17:55 --> Trying to get property 'Nama' of non-object
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 33, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/edit', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(74): view('data/edit', Array)
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2021-07-22 12:19:46 --> Trying to get property 'Nama' of non-object
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 33, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/edit', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(74): view('data/edit', Array)
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2021-07-22 12:19:57 --> Trying to get property 'Nama' of non-object
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 33, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/edit', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(74): view('data/edit', Array)
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2021-07-22 12:21:27 --> Trying to get property 'Tgl_lahir' of non-object
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Users\\ASUS\\D...', 37, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/edit', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(74): view('data/edit', Array)
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->edit()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
+CRITICAL - 2021-07-22 12:34:38 --> Undefined index: id
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\ASUS\\D...', 81, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2021-07-22 12:35:35 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php on line 100
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(100): CodeIgniter\Database\BaseBuilder->update('3', Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2021-07-22 12:36:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php on line 100
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(100): CodeIgniter\Database\BaseBuilder->update('3', Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+CRITICAL - 2021-07-22 12:43:18 --> Array to string conversion
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\ASUS\\D...', 100, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#6 {main}
+ERROR - 2021-07-22 12:57:43 --> Unknown column 'tr' in 'field list'
+CRITICAL - 2021-07-22 12:57:43 --> Unknown column 'tr' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 12:58:47 --> Unknown column 'tr' in 'field list'
+CRITICAL - 2021-07-22 12:58:47 --> Unknown column 'tr' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:00:21 --> Unknown column 'tr' in 'field list'
+CRITICAL - 2021-07-22 13:00:21 --> Unknown column 'tr' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:02:47 --> Unknown column 'tr' in 'field list'
+CRITICAL - 2021-07-22 13:02:47 --> Unknown column 'tr' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:19:04 --> Unknown column 'tr' in 'field list'
+CRITICAL - 2021-07-22 13:19:04 --> Unknown column 'tr' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:19:35 --> Unknown column 'sayang' in 'field list'
+CRITICAL - 2021-07-22 13:19:35 --> Unknown column 'sayang' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:20:04 --> Unknown column 'sayang' in 'field list'
+CRITICAL - 2021-07-22 13:20:04 --> Unknown column 'sayang' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:23:04 --> Unknown column 'sayang' in 'field list'
+CRITICAL - 2021-07-22 13:23:04 --> Unknown column 'sayang' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+ERROR - 2021-07-22 13:23:48 --> Unknown column 'sayang' in 'field list'
+CRITICAL - 2021-07-22 13:23:48 --> Unknown column 'sayang' in 'field list'
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE user SET...')
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE user SET...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE user SET...')
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(95): CodeIgniter\Database\BaseConnection->query('UPDATE user SET...')
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#9 {main}
+CRITICAL - 2021-07-22 13:34:42 --> Undefined variable: user
+#0 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Views\data\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ASUS\\D...', 45, Array)
+#1 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(230): include('C:\\Users\\ASUS\\D...')
+#2 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Common.php(1271): CodeIgniter\View\View->render('data/index', Array, true)
+#4 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\app\Controllers\Data.php(108): view('data/index')
+#5 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(928): App\Controllers\Data->update()
+#6 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ASUS\Downloads\Compressed\CRM\CRM\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\ASUS\\D...')
+#10 {main}
